@@ -21,7 +21,7 @@ let state = null
 
 console.log(typeof age);
 console.log(typeof undefined); //undefind
-console.log(typeof null);  //object
+console.log(typeof null);  //object 
 
 
 
