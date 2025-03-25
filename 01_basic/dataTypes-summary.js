@@ -44,3 +44,32 @@ const myFunction = function (){
     console.log("Aaris");
 }
 console.log(typeof (myFunction));
+
+
+/////////////////////////////////////////////////////////////
+
+
+// stack (Primitive) , Heap (non-primitive)
+
+let myEmail = "aarispathan1234@gmail.com"
+
+let anotherName = myEmail
+
+anotherName = "pathanaris4321@gmail.com"
+
+console.log(myEmail);
+console.log(anotherName);
+
+
+let userOne = {
+    email : "hitesh@gmail.com",
+    upi : "dsvsrher@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ravi@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
