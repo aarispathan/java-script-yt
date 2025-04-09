@@ -1,5 +1,5 @@
 // singleton
-
+//
 // object literals
 const mySymb = Symbol("key1")
 
