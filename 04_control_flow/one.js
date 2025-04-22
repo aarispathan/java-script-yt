@@ -42,7 +42,7 @@ const loggedInFromEmail = true
 
 if (userLoggedIn && debbitCard && 2==2 ) {
         console.log("allow to buy items");
-}
+  }
 
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("logged in");
